@@ -17,3 +17,15 @@ test('like to see a welcome message', () => {
   //Assert
   expect(actual).toMatch(expected)
 })
+
+//  //Arrange
+// test("I'd like to view tthe list files available", () => {
+//   const expected = 'Array of files'
+//   const files = fs.readFile()
+
+// //Act
+
+
+//  //Assert
+
+// })
