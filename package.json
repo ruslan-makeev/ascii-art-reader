@@ -1,0 +1,24 @@
+{
+  "name": "ascii-art-reader",
+  "version": "1.0.0",
+  "description": "ascii-art-reader",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matai-2019/ascii-art-reader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matai-2019/ascii-art-reader/issues"
+  },
+  "homepage": "https://github.com/matai-2019/ascii-art-reader#readme",
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1"
+  }
+}
