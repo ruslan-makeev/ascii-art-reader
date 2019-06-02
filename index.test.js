@@ -11,3 +11,11 @@ test('Welcome prints a welcome message', () => {
 
   expect(actual).toBe(expected)
 })
+
+test('list filename', () => {
+  const expected = [ 'kea.txt', 'kiwi.txt', 'nikau.txt', 'pohutukawa.txt' ]
+  const actual = index.getData(index.displaydata)
+
+  expect(actual).tobe(expected)
+  
+})
