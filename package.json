@@ -4,8 +4,8 @@
   "description": "Build a state of the (ASCII) art terminal client. Don't forget to maximise your terminal window on one screen. You'll need the space!",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll",
-    "start": "nodemon index.js"
+    "start": "nodemon .",
+    "test": "jest --watchAll --verbose"
   },
   "repository": {
     "type": "git",
